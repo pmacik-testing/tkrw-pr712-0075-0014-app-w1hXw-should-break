@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wsdu
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0014-tenant/tkrw-pr712-0075-0014-app/devfile-sample-wsdu@sha256:4c9ed30cb0797ec3b8b9f02b05dc8a5ff5e0da7c28ccc82505620346e7ad185d
         name: my-nodejs
         ports:
         - containerPort: 3001
